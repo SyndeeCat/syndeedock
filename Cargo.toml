@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = { version = "1.25.0", features = ["full"] }
+gtk = "0.16"
+gtk-layer-shell = { version = "0.5.1", features = ["v0_6"] }
+gio = "0.16.7"
