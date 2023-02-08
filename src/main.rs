@@ -48,7 +48,7 @@ fn draw_dock(application: &Application) {
 #[tokio::main]
 async fn main() {
     let application = gtk::Application::builder()
-        .application_id("Test_dock_app")
+        .application_id("org.syndee.SyndeeDock")
         .build();
 
     application.connect_activate(|app| {
